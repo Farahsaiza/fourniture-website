@@ -1,0 +1,129 @@
+.container-fluid{
+    padding: 0px;
+}
+.entete{
+    background-color: rgb(215, 213, 213);
+    height: 200px;
+}
+.black{
+    margin-left: 500px;
+    width: 800px;
+    height: 250px;
+    margin-top: 10px;
+}
+.fauteuil{
+    width: 800px;
+    height: 400px;
+    margin-left: 530px;
+    margin-top: -500px;
+    position: relative;
+
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-top: -200px;
+    position: absolute;
+    left: 400px;
+    bottom: 100px;
+    box-shadow: 0px 0px 20px rgb(97, 97, 97);
+
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large ;
+    padding: 30px 10px  0px;
+}
+input,textarea {
+    margin: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: solid 2px rgb(70, 70, 70);
+    color:  rgb(167, 167, 90);
+    font-size: small;
+
+}
+
+.mesg{
+    /* padding-bottom: 10px; */
+    margin: 0px 15px;
+}
+.btn{
+    background-color: rgb(167, 167, 90);
+    border-radius: 20px;
+    color: white;
+    font-size: small;
+}
+.btn:hover{
+    color: black;
+    border: rgb(167, 167, 90) 1px solid;
+}
+.pied{
+    background-color: rgb(167, 167, 90) ;
+    width: 800px;
+    margin-left: 500px;
+    height: 140px;
+    position: absolute;
+    margin-top: 15px;
+    color: white;
+}
+.col-4 h4{
+    padding: 20px;
+    text-align: center;
+    font-size: small;
+
+}
+.col-4 p{
+    font-size: small;
+    padding: 10px;
+
+
+}
+@media screen and  (max-width : 500px)  {
+   
+    .entete{
+        width: 100%;
+    }
+    .black{
+       visibility: hidden;
+    }
+    .fauteuil{
+        width: 490px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: -500px;
+        position: relative;
+    
+    }
+    .container{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        margin-top: -200px;
+        position: absolute;
+        left: 50px;
+        bottom: -100px;
+        box-shadow: 0px 0px 20px rgb(97, 97, 97);
+    
+    }
+    .pied{
+        background-color: rgb(167, 167, 90) ;
+        width: 490px;
+        margin-left: 0px;
+        height: 140px;
+        position: absolute;
+        margin-top: 300px;
+        color: white;
+    }
+    
+}
